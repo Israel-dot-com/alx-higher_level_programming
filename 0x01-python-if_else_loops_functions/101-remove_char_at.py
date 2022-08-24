@@ -4,4 +4,4 @@ def remove_char_at(str, n):
         return (str)
     return (str[:n] + str[n+1:])
 
-#print(remove_char_at("Grid", 2))
+''''#print(remove_char_at("Grid", 2))''''
