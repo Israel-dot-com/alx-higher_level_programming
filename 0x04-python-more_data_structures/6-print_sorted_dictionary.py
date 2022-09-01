@@ -1,2 +1,5 @@
 #!/usr/bin/python3
-print("Add boilerplate handler code")
+    listofkeys = list(a_dictionary.keys())
+    listofkeys.sort()
+    for i in listofkeys:
+        print("{}: {}".format(i, a_dictionary.get(i)))
