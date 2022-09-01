@@ -1,4 +1,8 @@
 #!/usr/bin/python3
 def number_keys(a_dictionary):
-    maxkeys = (len(a_dictionary.keys())
-    return maxkeys
+    keycounter = 0
+    listofkeys = (list(a_dictionary.keys())
+
+    for i in listofkeys:
+        keycounter += 1
+    return (keycounter)
