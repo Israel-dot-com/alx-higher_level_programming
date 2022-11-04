@@ -1,0 +1,1 @@
+More operation in SQL
